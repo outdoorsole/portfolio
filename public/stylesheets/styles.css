@@ -468,6 +468,9 @@ background-color: #CC4646;
 /*Skills*/
 
 /*Timeline*/
+#professional-exp {
+    margin-bottom: 40px;
+}
 
 #timeline {
   list-style: none;
