@@ -14,7 +14,7 @@ License: Free to use for personal and commercial, but you need to place back lin
 }
 
 body {
-  font-size: 17px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   background: #E4E4E4;
 }
@@ -30,6 +30,7 @@ body {
 }
 
 p {
+  font-size: 18px;
   color: #858585;
   line-height:22px;
 }
@@ -381,7 +382,7 @@ Header
 }
 
 .heading {
-  padding: 3px 10px;
+  padding: 50px 10px;
   padding-bottom: 15px;
   margin-bottom: 30px;
   display: block;
@@ -681,7 +682,7 @@ Team
   padding: 0 8px;
 }
 
-.descrition {
+.description {
   min-height: 90px;
   /*text-align: center;*/
   /*border-bottom: 1px solid #dadde2;*/
@@ -1109,6 +1110,10 @@ a {
 
 p {
   color: #333333;
+}
+
+.text-center h2 {
+  color: #CC4646;
 }
 
 

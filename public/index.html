@@ -47,7 +47,6 @@
           <!--/.navbar-header-->
           <div id="main-nav" class="collapse navbar-collapse">
             <ul class="nav navbar-nav" id="mainNav">
-              <li class="active"><a href="#home" class="scroll-link">Home</a></li>
               <li><a href="#about-me" class="scroll-link">About Me</a></li>
               <li><a href="#experience" class="scroll-link">Professional Development</a></li>
               <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
@@ -61,19 +60,16 @@
       <!--/.container-->
     </header> <!--/.header-->
 
-    <div id="#top"></div>
-    <section id="home">
-      <div class="banner-container">
-        <img class="img-responsive" src="images/golden-gate-bridge.jpg" alt="banner" />
-      </div>
-    </section>
+    <div id="#top"></div> <!-- to target the top of the webpage -->
 
     <!-- About Me section -->
     <section id="about-me">
       <div class="container">
         <div class="text-center">
         <h1>About Me</h1>
-          <img src="images/mari-profile.jpg">
+          <div id="profile-image">
+            <img src="images/maribel-montejano.jpg">
+          </div>
           <div id="about-me-content">
             <p>I became interested in computer programming while taking a course at City College of San Francisco -- we needed to write a few scripts to automate a task and I was very intrigued! I then took a programming class to explore my interest in coding, and have continued on this journey ever since.
             </p>
@@ -194,22 +190,54 @@
               </div>
             </div>
 
+
+            <!-- timeline item -->
+            <div class="row timeline-movement">
+              <div class="timeline-badge">
+                <span class="timeline-balloon-date-day">Jan</span>
+                <span class="timeline-balloon-date-month">2016</span>
+              </div>
+
+              <div class="col-sm-6  timeline-item">
+                <div class="row">
+                  <div class="col-sm-11">
+                    <div class="timeline-panel credits">
+                      <ul class="timeline-panel-ul">
+                        <li><span class="importo"><h2>CodePath University</span></h2></li>
+                        <li><h3>Mobile iOS Bootcamp</h3></li>
+                        <li><span class="causale">
+                        Role: Student Lead</span></li>
+                        <li><span class="causale">San Francisco, CA</span></li>
+                        <li><p><small class="text-muted">Jan 2016 - present</small></p> </li>
+                        <p>
+                        CodePath is an education technology startup that provides free, accelerated engineering classes for students and professional developers and designers. Classes are strict, emotionally engaging, and backed by cutting-edge cognitive science to lead to effective results.The curriculum has been used to teach top developers at companies like Facebook, Dropbox, and Airbnb.
+                        </p>
+                        <p>
+                        City College of San Francisco was elected to participate in the pilot program (extended to Universities and colleges). Each week, a new aspect of the Swift programming language is learned, and immediately applyed to a real-world app.
+                        </p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- timeline item -->
             <div class="row timeline-movement">
               <div class="timeline-badge">
                 <span class="timeline-balloon-date-day">Sep</span>
                 <span class="timeline-balloon-date-month">2015</span>
               </div>
-
               <div class="col-sm-offset-6 col-sm-6  timeline-item">
                 <div class="row">
                   <div class="col-sm-offset-1 col-sm-11">
                     <div class="timeline-panel debits">
                       <ul class="timeline-panel-ul">
                         <li><span class="importo"><h2>LearnTech Labs</span></h2></li>
+                        <h3>Web Development track</h3>
                         <li><span class="causale">Oakland, CA</span></li>
                         <li><p><small class="text-muted"> Sep 2015 - Jan 2016</small></p> </li>
-                        <p>Web Development track
+                        <p>A career-driven coding program based in downtown Oakland. Emphasis is placed on applied experience through project-based learning and implementing agile workflow. Projects cover the full range of development using JavaScript and utilizing MEAN (MongoDB, Express, AngularJS, and NodeJS).
                         </p>
                       </ul>
                     </div>
@@ -239,9 +267,9 @@
                         June 8th - July 2nd (Cohort 4)</small></li>
                         <p>
                         </p>
-                        <p>Available to answer questions for students taking the prep course. On occasion, answer questions for students online through the livestream course
+                        <p>
+                        Acted as a facilitator for the preparatory course for Telegraph Academy. Was available to answer questions for students taking the prep course in both group and individual settings. On occasion, would answer questions for students attending the online course (livestream version).
                         </p>
-                      </ul>
                     </div>
                   </div>
                 </div>
@@ -266,7 +294,7 @@
                         <li><span class="causale">Oakland, CA</span></li>
                         <li><p><small class="text-muted">April 6 - May 7, 2015</small></p>
                         </li>
-                        <p>4 days a week, part-time prep course that introduces students to JavaScript fundamentals and algorithmic thinking.
+                        <p>Part-time (4 days a week) prep course that introduces students to JavaScript fundamentals and algorithmic thinking.
                         </p>
                       </ul>
                     </div>
