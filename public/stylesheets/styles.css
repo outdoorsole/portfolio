@@ -40,9 +40,12 @@ img {
   height: 450px;
 }
 
+#first-header {
+  padding-top: 70px;
+}
+
 h1 {
   color: #CC4646;
-  padding-top: 70px;
 }
 
 #about-me-content {
@@ -51,6 +54,7 @@ h1 {
 }
 
 #quote h2 {
+  padding-top: 0;
   color: #EDE9E9;
 }
 
