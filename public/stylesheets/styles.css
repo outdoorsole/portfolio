@@ -42,7 +42,12 @@ img {
 
 h1 {
   color: #CC4646;
-  padding-top: 50px;
+  padding-top: 70px;
+}
+
+#about-me-content {
+  padding: 20px 20px;
+  margin: 20px 100px;
 }
 
 .white {
