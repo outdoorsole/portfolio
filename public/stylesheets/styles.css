@@ -479,9 +479,9 @@ Header
 
 /*Skills*/
 .skilltitle {
-  text-align: right;
+  text-align: left;
   font-weight: 600;
-  padding-right: 0px;
+  margin-left: 50px;
 }
 .progress {
   border-radius: 0px;
