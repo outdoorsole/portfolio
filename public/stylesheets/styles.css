@@ -14,6 +14,7 @@ License: Free to use for personal and commercial, but you need to place back lin
 }
 
 body {
+  margin: 0;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   background: #E4E4E4;
@@ -33,6 +34,15 @@ p {
   font-size: 18px;
   color: #858585;
   line-height:22px;
+}
+
+img {
+  height: 450px;
+}
+
+h1 {
+  color: #CC4646;
+  padding-top: 50px;
 }
 
 .white {
@@ -433,20 +443,12 @@ Header
   background:#fff;
 }
 
-#aboutUs .txtHead {
-  background:#fff;
-  padding:20px 10px;
-}
-#aboutUs .txtHead .fa {
-  font-size: 58px;
-  color: #5E5E5E;
-}
 .tileBox p {
-    background-color: #f0f0f0;
-font-size: 15px;
-color: #777777;
-padding: 20px;
-margin: 0px;
+  background-color: #f0f0f0;
+  font-size: 15px;
+  color: #777777;
+  padding: 20px;
+  margin: 0px;
 }
 /*parlex*/
 .bg-parlex {
@@ -872,10 +874,6 @@ hr {
   border-color: #ddd;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
 
 #navigation {
   position: fixed;
