@@ -50,6 +50,10 @@ h1 {
   margin: 20px 100px;
 }
 
+#quote h2 {
+  color: #EDE9E9;
+}
+
 .white {
   background:#fff;
 }
